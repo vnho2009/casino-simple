@@ -1,0 +1,13 @@
+<button onclick="play()">QUAY SLOT</button>
+<p id="kq"></p>
+
+<script>
+function play(){
+  let r = Math.random();
+  if(r > 0.8){
+    document.getElementById("kq").innerHTML = "🎉 JACKPOT!!!";
+  } else {
+    document.getElementById("kq").innerHTML = "Thua 😢";
+  }
+}
+</script>
